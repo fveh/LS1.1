@@ -1,0 +1,2 @@
+scheduler = ProxyChainScheduler(proxy_list)
+proxy = scheduler.get_next_proxy()
