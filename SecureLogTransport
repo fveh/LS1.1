@@ -1,0 +1,2 @@
+logger = SecureLogger()
+logger.log("INFO", "Operation started")
