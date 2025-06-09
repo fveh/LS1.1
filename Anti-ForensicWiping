@@ -1,0 +1,2 @@
+SecureDelete.wipe_file("/sensitive/file.txt")
+SecureDelete.wipe_memory(sensitive_object)
