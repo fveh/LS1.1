@@ -4,3 +4,9 @@
 ```python
 from LibertyShield_v4.1 import UDPEnhancements
 UDPEnhancements.stealth_udp_flood("target.com", 80, 60, protocol='dns')
+
+
+[Client] --> [Proxy Chain] --> [Amplifiers] --> [Target]
+                ^
+                |
+           [Command & Control]
